@@ -1,6 +1,4 @@
 # Text Input Effects
----
-
 Simple styles and effects for enhancing text input interactions.
 
 [Article on Codrops](http://tympanus.net/codrops/2015/01/08/inspiration-text-input-effects/)
@@ -8,7 +6,6 @@ Simple styles and effects for enhancing text input interactions.
 [Demo](http://tympanus.net/Development/TextInputEffects/)
 
 ## Usage
----
 You need to have font-awesome for the text input fields that use the icons. You also need to embed `persistLabel.js` from the js directory to have the labels persist in the filled state once the focus shifts away from the input. Basic example is:
 
 ```css
