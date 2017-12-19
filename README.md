@@ -1,5 +1,5 @@
-Text Input Effects
-=========
+# Text Input Effects
+---
 
 Simple styles and effects for enhancing text input interactions.
 
@@ -7,7 +7,20 @@ Simple styles and effects for enhancing text input interactions.
 
 [Demo](http://tympanus.net/Development/TextInputEffects/)
 
-Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is". 
+## Usage
+---
+You need to have font-awesome for the text input fields that use the icons. You also need to embed `persistLabel.js` from the js directory to have the labels persist in the filled state once the focus shifts away from the input. Basic example is:
+
+```css
+<span class="input input--haruki">
+  <input class="input__field input__field--haruki" type="text" id="input-1" />
+  <label class="input__label input__label--haruki" for="input-1">
+    <span class="input__label-content input__label-content--haruki">First Name</span>
+  </label>
+</span>
+```
+
+Integrate or build upon it for free in your personal or commercial projects. Don't republish, redistribute or sell "as-is".
 
 Read more here: [License](http://tympanus.net/codrops/licensing/)
 
