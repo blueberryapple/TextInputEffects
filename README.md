@@ -6,9 +6,9 @@ Simple styles and effects for enhancing text input interactions.
 [Demo](http://tympanus.net/Development/TextInputEffects/)
 
 ## Usage
-You need to have font-awesome for the text input fields that use the icons. You also need to embed `persistLabel.js` from the js directory to have the labels persist in the filled state once the focus shifts away from the input. Basic example is:
+You need to have font-awesome for the text input fields that use the icons. You also need to embed `persistLabel.js` from the js directory to have the labels persist in the filled state once the focus shifts away from the input. Finally, normalize.css is also required for the unfilled state label to be centered vertically. Basic example is:
 
-```css
+```html
 <span class="input input--haruki">
   <input class="input__field input__field--haruki" type="text" id="input-1" />
   <label class="input__label input__label--haruki" for="input-1">
