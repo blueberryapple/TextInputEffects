@@ -105,7 +105,7 @@
 	transition: transform 0.7s, stroke 0.7s;
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--nao:focus + .input__label--nao,
 .input--filled .input__label--nao {
@@ -167,7 +167,7 @@
 	transition: transform 0.7s, stroke 0.7s;
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--shoko:focus + .input__label--shoko,
 .input--filled .input__label--shoko {
@@ -396,7 +396,7 @@
 	transition: transform 0.7s, fill 0.7s;
 	-webkit-transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
 	transition-timing-function: cubic-bezier(0, 0.25, 0.5, 1);
-} 
+}
 
 .input__field--kozakura:focus,
 .input--filled .input__field--kozakura {
@@ -530,7 +530,7 @@
 
 .input__label-content--sae {
 	padding: 0;
-	font-size: 1.3em;
+	font-size: 1.05em;
 	display: block;
 	-webkit-transform-origin: 0 0;
 	transform-origin: 0 0;
@@ -614,7 +614,7 @@
 	opacity: 1;
 	-webkit-transition: opacity 0s 0.3s;
 	transition: opacity 0s 0.3s;
-} 
+}
 
 .input__field--nariko:focus + .input__label--nariko::before,
 .input--filled .input__label--nariko::before {
